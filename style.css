@@ -1,0 +1,38 @@
+.brightness{
+    filter: brightness(50%);
+  
+}
+.bg-black-shadow{
+  background: rgba(0, 0, 0, 0.87);
+}
+.icon{
+    font-size: 45px;
+    transform: translate(46px);
+}
+@media (max-width: 576px) {
+   .card-x{
+    width: 40rem;
+    padding-bottom: 10px;
+   }
+h1{
+    font-size: 20px;
+  }
+  .seem{
+    font-size: 12px;
+  }
+  p{
+    font-size: 14px;
+  }
+   .d-sm-none-section{
+    display: none;
+   }
+ 
+}
+@media (max-width: 768px) {
+   .visibility{
+   display: none;
+}
+.d-sm-none-section{
+  display: none;
+ }
+    }
