@@ -26,6 +26,11 @@ h1{
   width: 30rem;
   margin-top:10px;
  }
+ .flex-sm-column-reverse-one{
+  display: flex;
+  flex-direction: column-reverse;
+  
+ }
 }
 @media (max-width: 768px) {
    .visibility{
