@@ -9,11 +9,7 @@
     font-size: 45px;
     transform: translate(46px);
 }
-@media (max-width: 576px) {
-   .card-x{
-    width: 40rem;
-    padding-bottom: 10px;
-   }
+@media (max-width:540px) {
 h1{
     font-size: 20px;
   }
@@ -26,7 +22,10 @@ h1{
    .d-sm-none-section{
     display: none;
    }
- 
+ .first{
+  width: 30rem;
+  margin-top:10px;
+ }
 }
 @media (max-width: 768px) {
    .visibility{
